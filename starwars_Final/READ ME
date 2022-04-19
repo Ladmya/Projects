@@ -1,0 +1,37 @@
+API // ASYNC // FETCH 
+
+NB: to use with GOOGLE CHROME only
+
+We were asked to create an API with an asynchronous function.
+We created one that randomly selects a character from a Star Wars JSON file and provides information about it with a matching image. Like a Pokemon card.
+
+Tech stack : JS / CSS / HTML
+
+FUNCTIONALITIES
+
+ 1 => Fetch API 
+ 2 => Turn response into 1st JSON 
+ 3 => Select randomly one character 
+ 4 => Create a HTML element with information about the character 
+ 5 => Assign CSS specific to the character
+ 6 => Fetch & Turn response into 2nd JSON
+ 7 => Loader
+ 8 => Music
+ 9 => Refresh button
+
+
+DIFFICULTIES
+
+Creating class in JS to be used in the CSS for each character
+Converting one value (url) from the first Json with the second (simple yet super difficult to figure out)
+Figuring out the execution order when fetching
+Getting to understand how to build CSS
+
+TO ADD
+
+Error messages
+Converting the CSS (all elements positions) and the HTML (autoplay) for Firefox
+
+
+Group : Ladmya & Sabrina
+Ressources : Mark Ostrander / SWAPI.DEV  / DCODE / DEVIANT ART / CSSANIMATION.ROCKS / John Williams

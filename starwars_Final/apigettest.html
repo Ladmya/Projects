@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="apigettest.js"></script>
+    <link rel="stylesheet" href="apigettest.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>May the force be with you</title>
+</head>
+
+<body>
+
+    <!--LOADER-->
+    <div class="loader"></div>
+
+    <!--MUSIC LOOP-->
+    <audio controls autoplay>
+    <source src="Star Wars Theme Song By John Williams.mp3" type="audio/mpeg">
+	</audio>
+
+    <!--FLYING HEADER-->
+    <div class="starwars-demo">
+        <!--<img src="https://cssanimation.rocks/demo/starwars/images/star.svg" alt="Star" class="star">-->
+        <img src="sw.png" alt="Star" class="star">
+        <br>
+        <!--<img src="https://cssanimation.rocks/demo/starwars/images/wars.svg" alt="Wars" class="wars">-->
+        <h2 class="byline" id="byline">CHARACTERS</h2>
+    </div>
+    </div>
+
+    <!-- CHARACTER CARD-->
+    <table id="name"></table>
+    <div id="character-info" class="characterCard">
+        <div id="planet-name"></div>
+    </div>
+
+    <!--REFRESH CARD BUTTON-->
+    <button type="button"  onClick="window.location.reload(true)" class="button"> 
+        <span class="button__text">Refresh</span>      
+          <span class="button__icon">
+             <ion-icon name="refresh-outline"></ion-icon>
+          </span>
+        <!--<input type="button" value="Reload Page" onClick="window.location.reload(true)">-->
+    </button>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+</body>
+
+</html>
