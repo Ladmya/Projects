@@ -1,7 +1,8 @@
 PICO-8 (free version)
 
 Our first project was to create a game on Pico within 8 days, we opted for a shooter which was the most time effective type of game.
-You can try it on itch.io : https://flrs.itch.io/nutrispace-shooter
+You can try it on itch.io : https://flrs.itch.io/nutrispace-shooter 
+or Lexaloffle https://www.lexaloffle.com/bbs/?tid=46815
 
 Pitch : “When bad cholesterol becomes a threat, shoot it with healthy food!”
 
@@ -14,14 +15,14 @@ Functionalities :
 Game background:
 - Moving stars : Loop with random placement  & random speed set
 
-Ennemies:
+Enemies:
 - Random number of shooters per attack
 
 Projectiles : 
 - Random projectiles 
 - Timer for projectiles attack
 - Explosion draw
-- Deleting bullets when reaching top screen to avoid killing next wave of ennemies shooters
+- Deleting bullets when reaching top screen to avoid killing next wave of enemies shooters
 
 Gamer:
 - Random  player projectiles 
@@ -30,7 +31,7 @@ Gamer:
 - Deleting bullets when reaching bottom screen
 
 Game over : 
-- Dying upon collision with 1 projectile or an ennemy shooter
+- Dying upon collision with 1 projectile or an enemy shooter
 
 Game win :
 - Reach 600 points
