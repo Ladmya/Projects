@@ -1,0 +1,75 @@
+/* Font choice*/
+
+@font-face {
+    font-family: 'waltographUI';
+    src: url("/Users/Ladmyarioualalen/ADA/Exercices/Crash course HTML CSS/waltograph/waltographUI.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Styling h1*/
+h1 {
+    color : rgb(60, 56, 61);
+    font-weight: 600;
+    font-size: 70px;
+    text-transform: uppercase;
+/* BORDER creates a box around the header with the text color 
+  full box =  border: 5px solid; */    
+    border-top: 5px solid;
+
+}
+
+body {
+    background-color: rgb(203, 188, 169);
+/* COLOR works as inheritance, it assigns one color to the whole body 
+   If we remove color from H1 it will inherite the one specified in body */    
+    color:rgb(90, 85, 93);
+    font-family: 'waltographUI';
+/* font- weight = bold or not */    
+    font-weight: 200;
+}
+
+img {
+    height: 470px;
+/* Round corner */ 
+    border-radius: 50% ;
+}
+
+/* # before the section id name
+   CONTAINER code to center all the elements */
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button {
+    margin: 30px auto 0;
+    padding: 20px 25px;
+    border-radius: 50%;
+    background-color:rgb(189, 190, 189);
+    font-family: 'waltographUI';
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid rgb(60, 56, 61);
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(60, 56, 61); 
+    /*letter-spacing: 3px;*/
+    outline: none;
+}
+
+button:hover {
+/* TRANSITION sets the time delay when hovering */    
+    transition: 0.3s;
+    background-color: rgb(60, 56, 61);
+    color: rgb(203, 188, 169);
+    text-decoration: underline;
+}
+
+p {
+    font-size: 18px;
+}
