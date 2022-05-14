@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+        "name": "Emopimp my translation",
+        "description": "Replace selected words by Emoji",
+        "version": "1.0",
+        "background":{
+            "service_worker": 
+                "test-background.js"
+        },
+       
+        "content_scripts": [
+            {
+                "matches": [
+                    "*://*/*"
+                ],    
+                "css":[
+                    "style.css"
+                ]         
+            }
+        ],
+        "action":{
+            "default_icon":"canard.png",
+            "default_popup":"popup.html",
+            "default_title":"Emo pop"
+        }
+    }
